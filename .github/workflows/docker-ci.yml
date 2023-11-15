@@ -39,7 +39,7 @@ jobs:
 
       - name: Launch Web Service
         run: docker-compose up -d
-      
+        
       - name: Wait for webserver
 	      run: ./wait-for-webserver.sh
 
